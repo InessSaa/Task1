@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+
+}
+body{
+    background: linear-gradient(243deg,rgba(133, 76, 237, 1) 0%, rgba(44, 156, 212, 1) 99%);
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f6f5;
+    border-radius: 0px 0px 20px 20px;
+    padding: 5px 40px;
+    
+}
+
+header img{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    width: 30%;
+    display: flex;
+    font-size: 16px;
+    color: #370f9c;
+    font-weight: bold;
+    justify-content: space-between; 
+}
+nav li a:hover{
+    color: #7747e9;
+}
+nav li a{
+    font-size: 18px;
+    color: #4790e9;
+    text-decoration: none;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+  background: linear-gradient(135deg, #1faa00, #25d366, #269671);
+  font-size:18px ;
+  color: white;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+section div {
+    width: 42%;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+.image img{
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+.title h1{
+    font-size: 60px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.title p{
+    font-size: 20px;
+    color:white;
+    line-height: 1.7;
+   
+}
+.cart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 5%;
+    
+}
+.cart div{
+     text-align: center;
+    font-size: 30px;
+    line-height: 1.7;
+    color: #4585db;
+    background: white;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition: .3s;
+}
+.cart div:hover{
+     transform: translate(0px, -20px);;
+}
+
+.courses{
+    width: 100%;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+.courses div{
+    width: 100%;
+     text-align: center;
+    font-size: 30px;
+    line-height: 1.7;
+    color: #4585db;
+    background: white;
+    border-radius: 20px;
+    padding: 50px 5%;
+    
+}
+.courses div p{
+    font-size: 20px;
+    color: #525253;
+    word-spacing: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer ul li, p{
+    font-size: 20px;
+    color: #2477e4;
+    line-height: 30px;
+}
